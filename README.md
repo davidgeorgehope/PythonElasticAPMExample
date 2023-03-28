@@ -12,8 +12,8 @@ A simple Flask app instrumented with Elastic APM that simulates slow transaction
 1. Clone the repository:
 
    ```
-   git clone https://github.com/yourusername/flask-apm-sqlite.git
-   cd flask-apm-sqlite
+   git clone https://github.com/davidgeorgehope/PythonElasticAPMExample
+   cd PythonElasticAPMExample
    ```
 
 2. Build and start the Docker containers:
@@ -24,7 +24,7 @@ A simple Flask app instrumented with Elastic APM that simulates slow transaction
 
 ## Usage
 
-The Flask app is accessible at http://localhost:5000. It randomly generates one of the following responses:
+The Flask app is accessible at http://localhost:5001. It randomly generates one of the following responses:
 
 - A normal "Hello, World!" response.
 - A slow transaction by sleeping for 3 seconds before returning a response.
@@ -32,15 +32,6 @@ The Flask app is accessible at http://localhost:5000. It randomly generates one 
 
 Elastic APM captures performance metrics, slow transactions, and errors. You can visualize this data in Kibana.
 
-### SQLite Example
-
-The `sqlite_example.py` script demonstrates how to connect to a SQLite database, create a table, insert data, and query data. Run the script with the following command:
-
-```
-python sqlite_example.py
-```
-
-This script creates a `example.db` SQLite database file, inserts data, and prints the query results.
 
 ## Load Testing
 
