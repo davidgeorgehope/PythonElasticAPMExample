@@ -19,7 +19,7 @@ A simple Flask app instrumented with Elastic APM that simulates slow transaction
 2. Build and start the Docker containers:
 
    ```
-   docker-compose up -d
+   docker-compose up --build -d
    ```
 
 ## Usage
