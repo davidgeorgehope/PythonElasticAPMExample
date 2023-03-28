@@ -35,7 +35,7 @@ Elastic APM captures performance metrics, slow transactions, and errors. You can
 
 ## Load Testing
 
-The `load_test.sh` script sends 1000 requests to the Flask app with a 0.1-second delay between each request. To run the script, make it executable and run it:
+The `load_test.sh` script sends 1000 requests to the Flask app with a 1-second delay between each request. To run the script, make it executable and run it:
 
 ```
 chmod +x load_test.sh
