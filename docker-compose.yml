@@ -8,5 +8,5 @@ services:
     environment:
       - PORT=5001
       - APM_SERVICE_NAME=flask-app
-      - APM_SECRET_TOKEN=your_secret_token
-      - APM_SERVER_URL=http://host.docker.internal:8200
+      - APM_SECRET_TOKEN=SQFLIUswj2Nycm3Ble
+      - APM_SERVER_URL=https://8df3574129ac416ab567aab0bdeeea69.apm.us-west2.gcp.elastic-cloud.com:443
